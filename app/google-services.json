@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1097383215389",
+    "firebase_url": "https://cane-5144b.firebaseio.com",
+    "project_id": "cane-5144b",
+    "storage_bucket": "cane-5144b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097383215389:android:56b021afd6e2abc3",
+        "android_client_info": {
+          "package_name": "com.nitishprajapati.cane"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097383215389-vlc4an17712o1e14m7e5jshsq67ee23d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nitishprajapati.cane",
+            "certificate_hash": "d2b188fc48e51f57e9886d57f99a7d2e19395b3c"
+          }
+        },
+        {
+          "client_id": "1097383215389-v4vjf96tv4u8qmaqjgjghaamopeisulc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_WKeABVH3jP8_QEIfY3UGzfPTzm6YuMc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097383215389-v4vjf96tv4u8qmaqjgjghaamopeisulc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

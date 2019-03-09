@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountActivity.SignupActivity">
+
+    <EditText
+        android:id="@+id/contact"
+        android:layout_width="285dp"
+        android:layout_height="41dp"
+        android:layout_below="@+id/pincode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/signupbackgrounds"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="RE-ENTER PASSWORD"
+        android:textColor="#3c3f41"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="304dp" />
+
+    <EditText
+        android:id="@+id/pincode"
+        android:layout_width="285dp"
+        android:layout_height="41dp"
+        android:layout_below="@+id/address"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/signupbackgrounds"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="PASSWORD"
+        android:textColor="#3c3f41"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="253dp" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="285dp"
+        android:layout_height="43dp"
+        android:layout_below="@+id/age"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/signupbackgrounds"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="USERNAME"
+        android:singleLine="false"
+        android:textColor="#3c3f41"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="203dp" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="285dp"
+        android:layout_height="41dp"
+        android:layout_below="@+id/surname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/signupbackgrounds"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="CONTACT"
+        android:inputType="number"
+        android:textColor="#3c3f41"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="153dp" />
+
+    <EditText
+        android:id="@+id/surname"
+        android:layout_width="285dp"
+        android:layout_height="41dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/signupbackgrounds"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="SURNAME"
+        android:inputType="textPersonName"
+        android:textColor="#3c3f41"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="103dp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="285dp"
+        android:layout_height="41dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="82dp"
+        android:background="@drawable/signupbackgrounds"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="NAME"
+        android:inputType="textPersonName"
+        android:textColor="#3c3f41"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="52dp"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="37dp"
+        android:background="@drawable/greenbackground"
+        android:textColor="#ffffff"
+        android:text="DONE" />
+
+
+</RelativeLayout>
